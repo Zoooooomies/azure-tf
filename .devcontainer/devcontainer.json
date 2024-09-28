@@ -1,0 +1,11 @@
+{
+	"image":"mcr.microsoft.com/devcontainers/base:alpine",
+	"name": "azure-tf",
+	"features": {
+	  "ghcr.io/devcontainers/features/nix:1": {
+		"multiUser": true,
+		"version": "latest"
+	  }
+	},
+	"postCreateCommand": "bash ./postCreateCommand.sh"
+}
