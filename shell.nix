@@ -8,8 +8,6 @@ mkShell {
   ];
   shellHook = ''
     set -a
-    source env.sh
-    echo $TEST_VAR
     set +a
   '';
 }

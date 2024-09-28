@@ -6,6 +6,5 @@
 		"multiUser": true,
 		"version": "latest"
 	  }
-	},
-	"postCreateCommand": "bash ./postCreateCommand.sh"
+	}
 }
