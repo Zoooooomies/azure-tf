@@ -1,0 +1,10 @@
+version: '3'
+
+tasks:
+  init:
+    cmds:
+      - terraform init
+
+  apply:
+    cmds:
+      - terraform apply
